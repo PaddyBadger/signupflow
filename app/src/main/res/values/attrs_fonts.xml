@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TypefaceTextView">
+        <attr name="typeface"/>
+    </declare-styleable>
+
+    <!-- Changing the attribute must be reflected in the TypefaceManager -->
+    <attr name="typeface" format="enum">
+        <enum name="museosans_100"          value="0"/>
+        <enum name="museosans_100_italic"   value="1"/>
+        <enum name="museosans_300"          value="2"/>
+        <enum name="museosans_300_italic"   value="3"/>
+        <enum name="museosans_500"          value="4"/>
+        <enum name="museosans_500_italic"   value="5"/>
+        <enum name="museosans_700"          value="6"/>
+        <enum name="museosans_700_italic"   value="7"/>
+        <enum name="museosans_900"          value="8"/>
+        <enum name="museosans_900_italic"   value="9"/>
+    </attr>
+</resources>

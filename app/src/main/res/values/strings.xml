@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Signup Flow</string>
+
+    <string-array
+        name="syncable_banks">
+        <item>JP Morgan Chase &amp; Co.</item>
+        <item>Bank of America</item>
+        <item>Wells Fargo</item>
+        <item>Citigroup</item>
+        <item>PNC Financial Services Group</item>
+        <item>HSBC Holdings</item>
+        <item>Bank of New York Mellon</item>
+        <item>U.S. Bancorp</item>
+        <item>SunTrust Bank</item>
+        <item>State Street Corp.</item>
+        <item>Capital One Financial</item>
+        <item>BB&amp;T Corporation</item>
+        <item>Toronto-Dominion Bank</item>
+        <item>Royal Bank of Scotland</item>
+        <item>Regions Financial</item>
+        <item>Fifth Third Bancorp</item>
+        <item>ING Group</item>
+        <item>KeyCorp</item>
+        <item>Northern Trust</item>
+        <item>Bank of Montreal</item>
+        <item>BNP Paribas (Bank of the West)</item>
+        <item>Mitsubishi UFJ Financial Group (Union Bank)</item>
+        <item>Allied Irish Banks</item>
+        <item>Comerica</item>
+        <item>Zions Bancorp</item>
+        <item>Marshall &amp; Ilsley</item>
+        <item>Banco Bilbao Vizcaya Argentaria S.A.</item>
+        <item>Huntington Bancshares</item>
+        <item>E-Trade Financial</item>
+        <item>Synovus Financial Corp.</item>
+        <item>Popular Inc.</item>
+        <item>Navy Federal Credit Union</item>
+        <item>Charles Schwab Corp.</item>
+        <item>Royal Bank of Canada (Centura)</item>
+        <item>Colonial BancGroup Inc.</item>
+        <item>Hudson City Bancorp</item>
+        <item>Deutsche Bank</item>
+        <item>People’s United Financial Inc.</item>
+        <item>State Employees Credit Union</item>
+        <item>Associated Banc-Corp</item>
+        <item>BOK Financial Corp.</item>
+        <item>New York Community Bancorp Inc.</item>
+        <item>First Horizon National Bancorp</item>
+        <item>First Citizens Bancshares</item>
+        <item>Astoria Financial Corp.</item>
+        <item>First Bancorp</item>
+        <item>Commerce Bancshares</item>
+        <item>City National Bank</item>
+        <item>Webster Financial Corp</item>
+        <item>FBOP Corp</item>
+        <item>Cullen/Frost Bankers Inc.</item>
+        <item>Guaranty Financial Group Inc.</item>
+        <item>AmTrust Financial Corp.</item>
+        <item>New York Private Bank &amp; Trust Corp</item>
+        <item>W Holding Co. Inc.</item>
+        <item>Fulton Financial Corp.</item>
+        <item>Pentagon Federal Credit Union</item>
+        <item>TCF Financial</item>
+        <item>Lehman Brothers Holdings Inc.</item>
+        <item>Bancorpsouth, Inc.</item>
+        <item>Valley National Bank</item>
+        <item>South Financial Group</item>
+        <item>Whitney Holding Corp.</item>
+        <item>Susquehanna Bancshares Inc.</item>
+        <item>Citizens Republic Bancorp Inc.</item>
+        <item>UCBH Holdings, Inc.</item>
+        <item>Raymond James Financial Inc.</item>
+        <item>First Banks Inc.</item>
+        <item>Wilmington Trust</item>
+        <item>BankUnited Financial Corp.</item>
+        <item>Third Federal S&amp;L</item>
+        <item>Wintrust Financial Corp</item>
+        <item>Sterling Financial Corp.</item>
+        <item>Bank of Hawaii</item>
+        <item>Arvest Bank Group</item>
+        <item>East West Bancorp Inc.</item>
+        <item>FirstBank Holding Co.</item>
+        <item>PrivateBancorp</item>
+        <item>Flagstar Bancorp Inc.</item>
+        <item>Boeing Employees Credit Union</item>
+        <item>UMB Financial Corp.</item>
+        <item>Midland Financial</item>
+        <item>Firstmerit Corp.</item>
+        <item>Corus Bancshares, Inc.</item>
+        <item>SVB Financial Group</item>
+        <item>Prosperity Bancshares Inc.</item>
+        <item>Washington Federal, Inc.</item>
+        <item>United Community Banks, Inc.</item>
+        <item>MetLife Inc.</item>
+        <item>International Bankshares Corp</item>
+        <item>Cathay General Bancorp</item>
+        <item>Trustmark Corp.</item>
+        <item>Central Bancompany</item>
+        <item>Umpqua Holdings Corp.</item>
+        <item>Pacific Capital Bancorp</item>
+        <item>SchoolsFirst Federal Credit Union</item>
+        <item>MB Financial, Inc.</item>
+        <item>National Penn Bancshares Inc.</item>
+        <item>Cam-Discount Ltd.</item>
+        <item>Apple Financial Holdings Inc.</item>
+    </string-array>
+</resources>

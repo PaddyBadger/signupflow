@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <views.TitledParagraphView_
+        android:layout_marginTop="20dp"
+        android:id="@+id/titled_paragraph_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <views.TitledInputRow_
+        android:id="@+id/age_input_row"
+        android:layout_below="@id/titled_paragraph_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <views.TitledInputRow_
+        android:id="@+id/income_input_row"
+        android:layout_below="@id/age_input_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <views.TitledInputRow_
+        android:id="@+id/retirement_age_input_row"
+        android:layout_below="@id/income_input_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <views.TypefaceButton
+        android:id="@+id/next_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bar_blue"
+        android:textColor="@color/white"
+        android:text="Next step"/>
+</RelativeLayout>

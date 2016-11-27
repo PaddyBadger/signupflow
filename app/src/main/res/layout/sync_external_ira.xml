@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <views.TitledParagraphView_
+        android:layout_marginTop="20dp"
+        android:id="@+id/titled_paragraph_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <views.TypefaceAutoCompleteTextView
+        android:hint="Start typing your bank's name"
+        android:id="@+id/input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        style="@style/SmallUserInput"
+        android:layout_below="@id/titled_paragraph_view"/>
+
+    <views.TypefaceButton
+        android:id="@+id/sync_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bar_blue"
+        android:textColor="@color/white"
+        android:text="Sync Account"/>
+</RelativeLayout>

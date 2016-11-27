@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <views.TypefaceTextView
+        style="@style/MessageLabel"
+        android:id="@+id/title"
+        app:typeface="museosans_500"/>
+
+    <views.TypefaceTextView
+        style="@style/MessageText"
+        android:layout_below="@id/title"
+        android:id="@+id/message"
+        app:typeface="museosans_300"/>
+</RelativeLayout>

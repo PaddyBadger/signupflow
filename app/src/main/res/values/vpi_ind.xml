@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="unselectedColor" format="color"/>
+    <attr name="selectedColor" format="color"/>
+    <attr name="lineW" format="dimension"/>
+    <attr name="gapW" format="dimension"/>
+
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" format="boolean"/>
+        <!-- Color of the unselected lines that represent the pages. -->
+        <attr name="unselectedColor"/>
+        <!-- Color of the selected line that represents the current page. -->
+        <attr name="selectedColor"/>
+        <!-- Width of each indicator line. -->
+        <attr name="lineW"/>
+        <!-- Width of each indicator line's stroke. -->
+        <attr name="strokeWidth" format="dimension"/>
+        <!-- Width of the gap between each indicator line. -->
+        <attr name="gapW"/>
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_gap_width">8dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FF999999</color>
+    <bool name="default_line_indicator_centered">true</bool>
+</resources>
