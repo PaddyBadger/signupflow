@@ -1,4 +1,4 @@
-package views;
+package com.betterment.signupflow.views;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -320,7 +320,7 @@ public class CirclePageIndicator extends View implements PageIndicator
             //We were told how big to be
             result = specSize;
         } else {
-            //Calculate the width according the views count
+            //Calculate the width according the com.betterment.signupflow.views count
             final int count = getCount();
             result = getPaddingLeft() + getPaddingRight() + (count * mLineWidth) + ((count) * mGapWidth);
             result -= mGapWidth;

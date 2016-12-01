@@ -2,7 +2,7 @@ package com.betterment.signupflow.enums;
 
 import com.betterment.signupflow.R;
 
-import views.TitledParagraphView;
+import com.betterment.signupflow.views.TitledParagraphView;
 
 public enum SignupFlow implements TitledParagraphView.DataSource {
     EMAIL_ADDRESS("Enter your email address", "So we can keep in touch about your earnings, and you can log in to your account.", R.color.dark_text),

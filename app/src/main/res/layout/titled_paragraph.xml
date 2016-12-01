@@ -4,12 +4,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <views.TypefaceTextView
+    <com.betterment.signupflow.views.TypefaceTextView
         style="@style/MessageLabel"
         android:id="@+id/title"
         app:typeface="museosans_500"/>
 
-    <views.TypefaceTextView
+    <com.betterment.signupflow.views.TypefaceTextView
         style="@style/MessageText"
         android:layout_below="@id/title"
         android:id="@+id/message"

@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:overScrollMode="never" />
 
-    <views.TypefaceButton
+    <com.betterment.signupflow.views.TypefaceButton
         android:id="@+id/sign_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
         android:layout_alignParentBottom="true"
         android:background="@drawable/solid_white_button"/>
 
-    <views.CirclePageIndicator
+    <com.betterment.signupflow.views.CirclePageIndicator
         android:layout_alignParentBottom="true"
         android:id="@+id/intro_page_indicator"
         android:layout_width="wrap_content"

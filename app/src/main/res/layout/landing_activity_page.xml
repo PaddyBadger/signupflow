@@ -35,7 +35,7 @@
         </RelativeLayout>
     </LinearLayout>
 
-    <views.TitledParagraphView_
+    <com.betterment.signupflow.views.TitledParagraphView_
         android:layout_marginTop="60dp"
         android:id="@+id/titled_paragraph_view"
         android:layout_width="match_parent"

@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package views;
+package com.betterment.signupflow.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;

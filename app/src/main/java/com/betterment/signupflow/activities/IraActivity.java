@@ -10,6 +10,7 @@ import com.betterment.signupflow.R;
 import com.betterment.signupflow.SignupBuilderCoordinator;
 import com.betterment.signupflow.enums.SignupFlow;
 import com.betterment.signupflow.utils.AnimationsUtil;
+import com.betterment.signupflow.views.TitledParagraphView;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
@@ -17,8 +18,6 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.Extra;
 import org.androidannotations.annotations.InstanceState;
 import org.androidannotations.annotations.ViewById;
-
-import views.TitledParagraphView;
 
 @EActivity(R.layout.ira_activity)
 public class IraActivity extends AppCompatActivity {

@@ -6,8 +6,8 @@ import android.view.ViewGroup;
 
 import com.betterment.signupflow.enums.LandingPager;
 
-import views.LandingActivityPage;
-import views.LandingActivityPage_;
+import com.betterment.signupflow.views.LandingActivityPage;
+import com.betterment.signupflow.views.LandingActivityPage_;
 
 public class LandingPagerAdapter extends PagerAdapter {
 

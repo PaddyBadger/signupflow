@@ -3,19 +3,20 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-    <views.TypefaceTextView
+    <com.betterment.signupflow.views.TypefaceTextView
         android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left"
         style="@style/InputLabel"/>
 
-    <views.TypefaceAutoCompleteTextView
+    <com.betterment.signupflow.views.TypefaceAutoCompleteTextView
         android:id="@+id/input_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/SmallUserInput"
         android:layout_marginTop="10dp"
         android:maxLength="10"
-        android:hint=""/>
+        android:hint=""
+        android:imeOptions="actionDone"/>
 </LinearLayout>

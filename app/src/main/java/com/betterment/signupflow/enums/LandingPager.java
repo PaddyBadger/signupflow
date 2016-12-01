@@ -2,12 +2,12 @@ package com.betterment.signupflow.enums;
 
 import com.betterment.signupflow.R;
 
-import views.TitledParagraphView;
+import com.betterment.signupflow.views.TitledParagraphView;
 
 public enum LandingPager implements TitledParagraphView.DataSource {
-    ONE("Low Fees", "Message one", R.drawable.drawable_1, R.color.white),
-    TWO("Less Taxes", "Message two", R.drawable.drawable_2,  R.color.white),
-    THREE("Less Stress", "Message three", R.drawable.drawable_3,  R.color.white);
+    ONE("Low Fees", "Because we are able to offer great advice at scale, our fees are lower than most other wealth management systems.", R.drawable.drawable_1, R.color.white),
+    TWO("Less Taxes", "Features like Tax Loss Harvesting and Tax Coordinated Portfolios, help you to pay less taxes over time.", R.drawable.drawable_2,  R.color.white),
+    THREE("Less Stress", "Our philosophy is that long term, well diversified, passive investing, with low fees and low taxes, will get you better returns than chasing the market.", R.drawable.drawable_3,  R.color.white);
 
     private String title;
     private String message;

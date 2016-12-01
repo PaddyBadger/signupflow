@@ -1,4 +1,4 @@
-package views;
+package com.betterment.signupflow.views;
 
 import android.annotation.TargetApi;
 import android.content.Context;

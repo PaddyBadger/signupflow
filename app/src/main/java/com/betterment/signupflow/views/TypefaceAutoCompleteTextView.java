@@ -1,4 +1,4 @@
-package views;
+package com.betterment.signupflow.views;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -24,7 +24,7 @@ public class TypefaceAutoCompleteTextView extends AutoCompleteTextView {
 
     public void setTypeface() {
         setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-        Typeface typeface = TypefaceManager.obtainTypeface(getContext(), TypefaceManager.MUSEOSANS_500);
+        Typeface typeface = TypefaceManager.obtainTypeface(getContext(), TypefaceManager.MUSEOSANS_300);
         setTypeface(typeface);
     }
 }

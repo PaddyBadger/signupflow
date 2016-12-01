@@ -18,6 +18,7 @@ import com.betterment.signupflow.R;
 import com.betterment.signupflow.SignupBuilderCoordinator;
 import com.betterment.signupflow.enums.SignupFlow;
 import com.betterment.signupflow.utils.AnimationsUtil;
+import com.betterment.signupflow.views.TitledParagraphView;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
@@ -28,8 +29,6 @@ import org.androidannotations.annotations.ViewById;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import views.TitledParagraphView;
 
 @EActivity(R.layout.email_address_entry_activity)
 public class EmailAddressActivity extends AppCompatActivity {

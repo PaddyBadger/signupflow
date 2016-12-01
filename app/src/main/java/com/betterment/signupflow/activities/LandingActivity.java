@@ -5,17 +5,16 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.transition.Fade;
 
-import com.betterment.signupflow.utils.AnimationsUtil;
 import com.betterment.signupflow.LandingPagerAdapter;
 import com.betterment.signupflow.R;
 import com.betterment.signupflow.SignupBuilderCoordinator;
+import com.betterment.signupflow.utils.AnimationsUtil;
+import com.betterment.signupflow.views.CirclePageIndicator;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
-
-import views.CirclePageIndicator;
 
 @EActivity(R.layout.landing_activity)
 public class LandingActivity extends AppCompatActivity {

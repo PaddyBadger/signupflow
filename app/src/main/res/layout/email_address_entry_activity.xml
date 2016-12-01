@@ -5,22 +5,23 @@
               android:layout_height="match_parent"
               android:background="@color/white">
 
-    <views.TitledParagraphView_
+    <com.betterment.signupflow.views.TitledParagraphView_
         android:layout_marginTop="20dp"
         android:id="@+id/titled_paragraph_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <views.TypefaceAutoCompleteTextView
+    <com.betterment.signupflow.views.TypefaceAutoCompleteTextView
         android:hint="Start typing your email"
         android:id="@+id/input_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
         style="@style/SmallUserInput"
-        android:layout_below="@id/titled_paragraph_view"/>
+        android:layout_below="@id/titled_paragraph_view"
+        android:imeOptions="actionDone"/>
 
-    <views.TypefaceButton
+    <com.betterment.signupflow.views.TypefaceButton
         android:id="@+id/next_step"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

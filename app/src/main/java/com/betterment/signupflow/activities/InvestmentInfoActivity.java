@@ -11,6 +11,8 @@ import com.betterment.signupflow.SignupBuilderCoordinator;
 import com.betterment.signupflow.enums.InvestingInfo;
 import com.betterment.signupflow.enums.SignupFlow;
 import com.betterment.signupflow.utils.AnimationsUtil;
+import com.betterment.signupflow.views.TitledInputRow;
+import com.betterment.signupflow.views.TitledParagraphView;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
@@ -20,9 +22,6 @@ import org.androidannotations.annotations.InstanceState;
 import org.androidannotations.annotations.ViewById;
 
 import java.math.BigDecimal;
-
-import views.TitledInputRow;
-import views.TitledParagraphView;
 
 @EActivity(R.layout.investment_info_activity)
 public class InvestmentInfoActivity extends AppCompatActivity {

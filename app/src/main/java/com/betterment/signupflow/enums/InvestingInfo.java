@@ -2,7 +2,7 @@ package com.betterment.signupflow.enums;
 
 import android.text.InputType;
 
-import views.TitledInputRow;
+import com.betterment.signupflow.views.TitledInputRow;
 
 public enum InvestingInfo implements TitledInputRow.DataSource {
     USER_AGE("How old are you?", InputType.TYPE_CLASS_NUMBER, false),

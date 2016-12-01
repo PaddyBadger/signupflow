@@ -46,4 +46,13 @@ public class SignupBuilderCoordinator implements Serializable {
     public void syncAccountSelected(SyncExternalIraActivity syncExternalIraActivity) {
         //Continue with flow
     }
+
+    public void rothIraSelected(SetUpIraActivity setUpIraActivity) {
+        //Continue with flow
+    }
+
+
+    public void traditionalSelected(SetUpIraActivity setUpIraActivity) {
+        //Continue with flow
+    }
 }
